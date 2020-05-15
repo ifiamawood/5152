@@ -12,7 +12,7 @@ int main()
 {
 	Mat srcMat = imread("D:\\0.jpg", 0);
 	Mat dstMat;
-	float gamma=0.5;
+	float gamma=2;
  	//本函数只处理单通道图像 
  	if (srcMat.channels() != 1)return -1;
 
